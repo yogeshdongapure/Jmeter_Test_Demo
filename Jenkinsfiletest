@@ -7,6 +7,6 @@ node {
                 echo "STAGE: Checkout Source >>> ENDS";
 
                 stage ('Run JMeter Test'){
-                bat 'C:\JMeter\bin>jmeter -n -t  C:\JMeter\bin\examples\BlazemeterRECORD.jmx -l C:\JMeter\bin\examples\BlazemeterRECORD1.jtl'
+                bat 'C:/JMeter/bin/jmeter -n -t  C:/JMeter/bin/examples/BlazemeterRECORD.jmx -l C:/JMeter/bin/examples/BlazemeterRECORD1.jtl'
                 }
  }
